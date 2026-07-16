@@ -46,5 +46,12 @@ To run this predictor locally on your machine, follow these steps:
 
 1. **Clone this repository** (or download and extract the ZIP file):
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/geopolymer-ceb-predictor.git](https://github.com/YOUR_USERNAME/geopolymer-ceb-predictor.git)
+   git clone https://github.com/mohamedaitaniba/geopolymer-ceb-predictor.git
    cd geopolymer-ceb-predictor
+2. Install the required dependencies using the requirements file:
+   ```bash
+   pip install -r requirements.txt
+3. Launch the interactive interface:
+  ```bash
+  python app.py
+Once running, copy the local URL output in your terminal (usually http://127.0.0.1:7860) and paste it into your web browser to begin simulation!
